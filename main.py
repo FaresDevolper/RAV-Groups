@@ -44,9 +44,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(me
 log = logging.getLogger("grouptop")
 
 # ============================== الإعدادات ==============================
-TOKEN = os.getenv("  TOKEN=
-")
-GUILD_ID = os.getenv("1425195739591610451")
+TOKEN = os.getenv("TOKEN")
+GUILD_ID = os.getenv("GUILD_ID")
 TZ = ZoneInfo(os.getenv("TIMEZONE", "Asia/Riyadh"))
 DB_PATH = os.getenv("DB_PATH", "data.db")
 
